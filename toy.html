@@ -20,9 +20,18 @@
           max="50"
           placeholder="Guess a number between 1 and 50"
         />
-        <button id="add_todo" pys-onClick="play_game" >play game</button>
+        <button id="try_guess" pys-onClick="play_game" >play game</button>
       </div>
       <h1 id="result"></h1>
+      <hr>
+      <input
+        type = "text"
+        id = "todo_input"
+        placeholder="Simple todo input"
+      />
+      <button id="add_todo" pys-onClick="add_todo" >Try add some todo</button>
+      <ul id="todo_list">
+      </ul>
     </main>
   </body>
 </html>
